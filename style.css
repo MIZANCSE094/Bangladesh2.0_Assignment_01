@@ -166,3 +166,103 @@ p {
   background-color: #005a2e;
 }
 
+/* ------------------------------------------------------------------ */
+
+
+.donation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.donation-button {
+  background-color: #323333;
+  border: 1px solid #b3d9f7;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.donation-button:hover {
+  background-color: #c6ecff;
+}
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.donate {
+  text-align: center;
+  padding: 40px;
+}
+
+.donate-cards {
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+  height: 70px;
+}
+
+.donate-cards .card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donate-cards .card:hover {
+  background-color: #007bff;
+  color: white;
+}
+.input-filed{
+  width: 50%;
+  padding: 20px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.donate-field{
+  width: 150px;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px
+}
+
+/* ------------------------------------------------------------------------ */
+  /* Newsletter Section */
+  .newsletter-part {
+    text-align: center;
+    padding: 40px;
+    background-color: #e9ecef;
+    margin-bottom: 5px;
+  }
+  
+ .newsletter-part form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+  }
+  
+  .newsletter-part input {
+    padding: 15px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+  
+  .newsletter-part button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
