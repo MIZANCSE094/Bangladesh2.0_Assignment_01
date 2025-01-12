@@ -42,19 +42,17 @@ cursor: pointer;
     font-size: 20px;
 }
 h2 {
-    text-align: center;
-    font-size: 2rem;
+    font-size: 40px;
     color: #333;
-    margin-top: 30px;
+    margin-left:100px;
 }
 
 p {
-    text-align: center;
     max-width: 700px;
-    margin: 10px auto;
+    margin-left: 100px;
     color: #666;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height:1.2;
 }
 
 /* Vision Cards Section */
@@ -63,6 +61,7 @@ p {
     justify-content: center;
     margin: 40px 10px;
     gap: 10px;
+
 }
 
 .card {
@@ -71,7 +70,7 @@ p {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
-    width: 300px;
+    width: 350px;
 }
 
 .card img {
@@ -86,7 +85,7 @@ p {
 
 .card p {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 10px;
     margin-bottom: 20px;
 }
 
@@ -107,5 +106,63 @@ p {
 .card {
     background-color: #e3f2fd;
 }
+/* --------------------------------------/* Recent News Section */----------------------------------------------- */
 
+.recent-part {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.recent-part h2 {
+  font-size: 40px;
+  color: #333;
+}
+
+.recent-part p {
+  color: #666;
+  margin-left: 100px;
+  line-height: 1.5;
+}
+
+.news-part {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+}
+
+.news-part img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.news-content h3 {
+  color: #333;
+}
+
+.news-content p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.news-content button {
+  background-color: #007b3e;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.news-content button:hover {
+  background-color: #005a2e;
+}
 
