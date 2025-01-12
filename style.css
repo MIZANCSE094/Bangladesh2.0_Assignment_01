@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .header-part{
     display: flex;
@@ -61,7 +60,7 @@ p {
     justify-content: center;
     margin: 40px 10px;
     gap: 10px;
-
+align-items: center;
 }
 
 .card {
@@ -71,6 +70,8 @@ p {
     padding: 10px;
     text-align: center;
     width: 350px;
+    margin: 0px 20px;
+ 
 }
 
 .card img {
@@ -80,13 +81,16 @@ p {
 
 .card h3 {
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .card p {
     color: #666;
     font-size: 10px;
+    font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .card button {
@@ -100,7 +104,9 @@ p {
 }
 
 .card button:hover {
-    background-color: #0056b3;
+    background-color: #0f3258;
+    color: wheat;
+    font-size: 12px;
 }
 
 .card {
@@ -143,13 +149,11 @@ p {
   text-align: left;
 }
 
-.news-content h3 {
-  color: #333;
-}
-
 .news-content p {
   color: #666;
   margin: 5px 0;
+  /* text-align: left;
+  justify-content: center; */
 }
 
 .news-content button {
@@ -234,6 +238,10 @@ button {
   border-radius: 10px;
   margin-bottom: 10px
 }
+.donate-field:hover{
+  background-color: #6f0505;
+}
+
 
 /* ------------------------------------------------------------------------ */
   /* Newsletter Section */
@@ -248,7 +256,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-   
+
   }
   
   .newsletter-part input {
@@ -265,7 +273,9 @@ button {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
   }
-
+.Subscribe-button:hover{
+  background-color: #1f1c1c;
+}
 
   /* <!----------------- Quote Section-------------------------- --> */
 
@@ -286,7 +296,7 @@ button {
 
 .Quote-part .quote-mark {
   font-size: 100px;
-  color: #e69c9c;
+  color: #807d7d;
   position: absolute;
   top:-15px;
   left: -5px;
